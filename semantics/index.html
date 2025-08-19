@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="profile">
+                    <img src="profile.jpg" alt="profile.png" >
+                </div>
+                <div class="intro">
+                    <h1 id="the-name">Abhin Das M</h1>
+                    <h3>Web Developer</h3>
+                    <p>Hello Guys I'm a Webdeveloper Passionate about <br>
+                        building user friendly aesthetic websites</p>
+                    <button>
+                        Explore
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="card">
+                <h2>See My Projects!</h2>
+                <ul>
+                    <li>
+                        Project 1: <a href="https://github.com/pleastandby/react-projects" target="_blank">link</a>
+                    </li>
+                    <ol>
+                        <li>Studied How to make react apps</li>
+                        <li>Studied basic syntax</li>
+                    </ol>
+                    <li>
+                        Project 2: <a href="https://github.com/pleastandby/practice-projects" target="_blank">link</a>
+                        <ol>
+                        <li>basic webpage project</li>
+                        <li>Studied basic syntax</li>
+                    </ol>
+                    </li>
+                    <li>
+                        Project 3: <a href="https://github.com/pleastandby/Ae-scripts" target="_blank">link</a>
+                        <ol>
+                            <li>out of bounds projects</li>
+                            <li>studied react basics</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">          
+            <div class="container">
+                <div class="addrr">
+                    <address id="address">
+                        Abhindas M,<br>
+                        456 Market Road,<br>
+                        Midtown,<br>
+                        999999
+                    </address>
+                </div>
+                <div class="contact-form">
+                    <h2>Contact</h2>
+                    <form action="mailto:abhin0824@gmail.com" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="yourself@example.com" required>
+                        <br>
+                        <label for="desc">Description</label>
+                        <textarea name="desc" id="desc" rows="5"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; ALL RIGHTS RESERVED TO ABHINDAS 2025</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,1 @@
+This is an HTML page to showcase how media are encoded into html
